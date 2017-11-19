@@ -5,7 +5,7 @@
 //  Created by kaoru akiba on 2017/05/21.
 //  Copyright © 2017年 kaoru akiba. All rights reserved.
 //
-//test
+
 import UIKit
 
 // reduceを用いて取り除いた場合
