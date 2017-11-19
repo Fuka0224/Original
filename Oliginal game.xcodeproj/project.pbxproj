@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B113DF951F08C3C5007B8349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B113DF941F08C3C5007B8349 /* ViewController.swift */; };
+		B1B85B0E1EF65D5400D0712F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B85B0D1EF65D5400D0712F /* ViewController2.swift */; };
+		B1C828AF1F65018D00A4CD11 /* 0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C828AE1F65018D00A4CD11 /* 0ViewController.swift */; };
 		B1F04D631ED1590300B9BECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F04D621ED1590300B9BECF /* AppDelegate.swift */; };
-		B1F04D651ED1590300B9BECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F04D641ED1590300B9BECF /* ViewController.swift */; };
 		B1F04D681ED1590300B9BECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F04D661ED1590300B9BECF /* Main.storyboard */; };
 		B1F04D6A1ED1590300B9BECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F04D691ED1590300B9BECF /* Assets.xcassets */; };
 		B1F04D6D1ED1590300B9BECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F04D6B1ED1590300B9BECF /* LaunchScreen.storyboard */; };
 		B1F04D781ED1590300B9BECF /* oliginal_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F04D771ED1590300B9BECF /* oliginal_gameTests.swift */; };
 		B1F04D831ED1590300B9BECF /* oliginal_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F04D821ED1590300B9BECF /* oliginal_gameUITests.swift */; };
+		B1F04D931EE3CCA100B9BECF /* OliginalGame2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1F04D921EE3CCA100B9BECF /* OliginalGame2.jpg */; };
+		B1F04D971EE3CE0C00B9BECF /* OliginalGame1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1F04D961EE3CE0C00B9BECF /* OliginalGame1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +38,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B1F04D5F1ED1590300B9BECF /* oliginal game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oliginal game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B113DF941F08C3C5007B8349 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1B85B0D1EF65D5400D0712F /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		B1C828AE1F65018D00A4CD11 /* 0ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 0ViewController.swift; path = ../0ViewController.swift; sourceTree = "<group>"; };
+		B1F04D5F1ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oliginal game.temp_caseinsensitive_rename.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F04D621ED1590300B9BECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B1F04D641ED1590300B9BECF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1F04D671ED1590300B9BECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1F04D691ED1590300B9BECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1F04D6C1ED1590300B9BECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1F04D6E1ED1590300B9BECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1F04D731ED1590300B9BECF /* oliginal gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oliginal gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F04D731ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oliginal game.temp_caseinsensitive_renameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F04D771ED1590300B9BECF /* oliginal_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oliginal_gameTests.swift; sourceTree = "<group>"; };
 		B1F04D791ED1590300B9BECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1F04D7E1ED1590300B9BECF /* oliginal gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oliginal gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F04D7E1ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_renameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oliginal game.temp_caseinsensitive_renameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F04D821ED1590300B9BECF /* oliginal_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oliginal_gameUITests.swift; sourceTree = "<group>"; };
 		B1F04D841ED1590300B9BECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F04D921EE3CCA100B9BECF /* OliginalGame2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OliginalGame2.jpg; sourceTree = "<group>"; };
+		B1F04D961EE3CE0C00B9BECF /* OliginalGame1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OliginalGame1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +95,9 @@
 		B1F04D601ED1590300B9BECF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1F04D5F1ED1590300B9BECF /* oliginal game.app */,
-				B1F04D731ED1590300B9BECF /* oliginal gameTests.xctest */,
-				B1F04D7E1ED1590300B9BECF /* oliginal gameUITests.xctest */,
+				B1F04D5F1ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_rename.app */,
+				B1F04D731ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_renameTests.xctest */,
+				B1F04D7E1ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_renameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,11 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				B1F04D621ED1590300B9BECF /* AppDelegate.swift */,
-				B1F04D641ED1590300B9BECF /* ViewController.swift */,
 				B1F04D661ED1590300B9BECF /* Main.storyboard */,
+				B1C828AE1F65018D00A4CD11 /* 0ViewController.swift */,
+				B113DF941F08C3C5007B8349 /* ViewController.swift */,
+				B1B85B0D1EF65D5400D0712F /* ViewController2.swift */,
 				B1F04D691ED1590300B9BECF /* Assets.xcassets */,
 				B1F04D6B1ED1590300B9BECF /* LaunchScreen.storyboard */,
 				B1F04D6E1ED1590300B9BECF /* Info.plist */,
+				B1F04D961EE3CE0C00B9BECF /* OliginalGame1.jpg */,
+				B1F04D921EE3CCA100B9BECF /* OliginalGame2.jpg */,
 			);
 			path = "oliginal game";
 			sourceTree = "<group>";
@@ -128,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B1F04D5E1ED1590300B9BECF /* oliginal game */ = {
+		B1F04D5E1ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1F04D871ED1590300B9BECF /* Build configuration list for PBXNativeTarget "oliginal game" */;
+			buildConfigurationList = B1F04D871ED1590300B9BECF /* Build configuration list for PBXNativeTarget "Oliginal game.temp_caseinsensitive_rename" */;
 			buildPhases = (
 				B1F04D5B1ED1590300B9BECF /* Sources */,
 				B1F04D5C1ED1590300B9BECF /* Frameworks */,
@@ -140,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = "oliginal game";
+			name = "Oliginal game.temp_caseinsensitive_rename";
 			productName = "oliginal game";
-			productReference = B1F04D5F1ED1590300B9BECF /* oliginal game.app */;
+			productReference = B1F04D5F1ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B1F04D721ED1590300B9BECF /* oliginal gameTests */ = {
+		B1F04D721ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_renameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1F04D8A1ED1590300B9BECF /* Build configuration list for PBXNativeTarget "oliginal gameTests" */;
+			buildConfigurationList = B1F04D8A1ED1590300B9BECF /* Build configuration list for PBXNativeTarget "Oliginal game.temp_caseinsensitive_renameTests" */;
 			buildPhases = (
 				B1F04D6F1ED1590300B9BECF /* Sources */,
 				B1F04D701ED1590300B9BECF /* Frameworks */,
@@ -158,14 +170,14 @@
 			dependencies = (
 				B1F04D751ED1590300B9BECF /* PBXTargetDependency */,
 			);
-			name = "oliginal gameTests";
+			name = "Oliginal game.temp_caseinsensitive_renameTests";
 			productName = "oliginal gameTests";
-			productReference = B1F04D731ED1590300B9BECF /* oliginal gameTests.xctest */;
+			productReference = B1F04D731ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_renameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B1F04D7D1ED1590300B9BECF /* oliginal gameUITests */ = {
+		B1F04D7D1ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_renameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1F04D8D1ED1590300B9BECF /* Build configuration list for PBXNativeTarget "oliginal gameUITests" */;
+			buildConfigurationList = B1F04D8D1ED1590300B9BECF /* Build configuration list for PBXNativeTarget "Oliginal game.temp_caseinsensitive_renameUITests" */;
 			buildPhases = (
 				B1F04D7A1ED1590300B9BECF /* Sources */,
 				B1F04D7B1ED1590300B9BECF /* Frameworks */,
@@ -176,9 +188,9 @@
 			dependencies = (
 				B1F04D801ED1590300B9BECF /* PBXTargetDependency */,
 			);
-			name = "oliginal gameUITests";
+			name = "Oliginal game.temp_caseinsensitive_renameUITests";
 			productName = "oliginal gameUITests";
-			productReference = B1F04D7E1ED1590300B9BECF /* oliginal gameUITests.xctest */;
+			productReference = B1F04D7E1ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_renameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B1F04D5A1ED1590300B9BECF /* Build configuration list for PBXProject "oliginal game" */;
+			buildConfigurationList = B1F04D5A1ED1590300B9BECF /* Build configuration list for PBXProject "Oliginal game" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +232,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1F04D5E1ED1590300B9BECF /* oliginal game */,
-				B1F04D721ED1590300B9BECF /* oliginal gameTests */,
-				B1F04D7D1ED1590300B9BECF /* oliginal gameUITests */,
+				B1F04D5E1ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_rename */,
+				B1F04D721ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_renameTests */,
+				B1F04D7D1ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_renameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1F04D971EE3CE0C00B9BECF /* OliginalGame1.jpg in Resources */,
+				B1F04D931EE3CCA100B9BECF /* OliginalGame2.jpg in Resources */,
 				B1F04D6D1ED1590300B9BECF /* LaunchScreen.storyboard in Resources */,
 				B1F04D6A1ED1590300B9BECF /* Assets.xcassets in Resources */,
 				B1F04D681ED1590300B9BECF /* Main.storyboard in Resources */,
@@ -259,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1F04D651ED1590300B9BECF /* ViewController.swift in Sources */,
+				B1C828AF1F65018D00A4CD11 /* 0ViewController.swift in Sources */,
+				B113DF951F08C3C5007B8349 /* ViewController.swift in Sources */,
 				B1F04D631ED1590300B9BECF /* AppDelegate.swift in Sources */,
+				B1B85B0E1EF65D5400D0712F /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +301,12 @@
 /* Begin PBXTargetDependency section */
 		B1F04D751ED1590300B9BECF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B1F04D5E1ED1590300B9BECF /* oliginal game */;
+			target = B1F04D5E1ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_rename */;
 			targetProxy = B1F04D741ED1590300B9BECF /* PBXContainerItemProxy */;
 		};
 		B1F04D801ED1590300B9BECF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B1F04D5E1ED1590300B9BECF /* oliginal game */;
+			target = B1F04D5E1ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_rename */;
 			targetProxy = B1F04D7F1ED1590300B9BECF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -440,7 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.oliginal-gameTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oliginal game.app/oliginal game";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oliginal game.temp_caseinsensitive_rename.app/Oliginal game.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -454,7 +470,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.oliginal-gameTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oliginal game.app/oliginal game";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oliginal game.temp_caseinsensitive_rename.app/Oliginal game.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -487,7 +503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1F04D5A1ED1590300B9BECF /* Build configuration list for PBXProject "oliginal game" */ = {
+		B1F04D5A1ED1590300B9BECF /* Build configuration list for PBXProject "Oliginal game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1F04D851ED1590300B9BECF /* Debug */,
@@ -496,29 +512,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1F04D871ED1590300B9BECF /* Build configuration list for PBXNativeTarget "oliginal game" */ = {
+		B1F04D871ED1590300B9BECF /* Build configuration list for PBXNativeTarget "Oliginal game.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1F04D881ED1590300B9BECF /* Debug */,
 				B1F04D891ED1590300B9BECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B1F04D8A1ED1590300B9BECF /* Build configuration list for PBXNativeTarget "oliginal gameTests" */ = {
+		B1F04D8A1ED1590300B9BECF /* Build configuration list for PBXNativeTarget "Oliginal game.temp_caseinsensitive_renameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1F04D8B1ED1590300B9BECF /* Debug */,
 				B1F04D8C1ED1590300B9BECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B1F04D8D1ED1590300B9BECF /* Build configuration list for PBXNativeTarget "oliginal gameUITests" */ = {
+		B1F04D8D1ED1590300B9BECF /* Build configuration list for PBXNativeTarget "Oliginal game.temp_caseinsensitive_renameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1F04D8E1ED1590300B9BECF /* Debug */,
 				B1F04D8F1ED1590300B9BECF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

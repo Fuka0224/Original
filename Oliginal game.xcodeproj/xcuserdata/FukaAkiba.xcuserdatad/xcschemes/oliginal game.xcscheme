@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B1F04D5E1ED1590300B9BECF"
-               BuildableName = "oliginal game.app"
-               BlueprintName = "oliginal game"
-               ReferencedContainer = "container:oliginal game.xcodeproj">
+               BuildableName = "Oliginal game.temp_caseinsensitive_rename.app"
+               BlueprintName = "Oliginal game.temp_caseinsensitive_rename"
+               ReferencedContainer = "container:Oliginal game.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B1F04D721ED1590300B9BECF"
-               BuildableName = "oliginal gameTests.xctest"
-               BlueprintName = "oliginal gameTests"
-               ReferencedContainer = "container:oliginal game.xcodeproj">
+               BuildableName = "Oliginal game.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "Oliginal game.temp_caseinsensitive_renameTests"
+               ReferencedContainer = "container:Oliginal game.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B1F04D7D1ED1590300B9BECF"
-               BuildableName = "oliginal gameUITests.xctest"
-               BlueprintName = "oliginal gameUITests"
-               ReferencedContainer = "container:oliginal game.xcodeproj">
+               BuildableName = "Oliginal game.temp_caseinsensitive_renameUITests.xctest"
+               BlueprintName = "Oliginal game.temp_caseinsensitive_renameUITests"
+               ReferencedContainer = "container:Oliginal game.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B1F04D5E1ED1590300B9BECF"
-            BuildableName = "oliginal game.app"
-            BlueprintName = "oliginal game"
-            ReferencedContainer = "container:oliginal game.xcodeproj">
+            BuildableName = "Oliginal game.temp_caseinsensitive_rename.app"
+            BlueprintName = "Oliginal game.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:Oliginal game.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B1F04D5E1ED1590300B9BECF"
-            BuildableName = "oliginal game.app"
-            BlueprintName = "oliginal game"
-            ReferencedContainer = "container:oliginal game.xcodeproj">
+            BuildableName = "Oliginal game.temp_caseinsensitive_rename.app"
+            BlueprintName = "Oliginal game.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:Oliginal game.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B1F04D5E1ED1590300B9BECF"
-            BuildableName = "oliginal game.app"
-            BlueprintName = "oliginal game"
-            ReferencedContainer = "container:oliginal game.xcodeproj">
+            BuildableName = "Oliginal game.temp_caseinsensitive_rename.app"
+            BlueprintName = "Oliginal game.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:Oliginal game.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

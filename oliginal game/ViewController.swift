@@ -12,6 +12,7 @@ import UIKit
 extension Array where Element: Equatable {
     var unique: [Element] {
         return reduce([]) { $0.0.contains($0.1) ? $0.0 : $0.0 + [$0.1] }
+        
     }
 }
 
