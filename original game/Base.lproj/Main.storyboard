@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="y4k-lk-92c">
             <objects>
-                <viewController id="Bim-um-G2E" customClass="__ViewController" customModule="Oliginal_game_temp_caseinsensitive_rename" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Bim-um-G2E" customClass="HomeViewController" customModule="Oliginal_game_temp_caseinsensitive_rename" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZaE-fZ-2dX"/>
                         <viewControllerLayoutGuide type="bottom" id="ebr-0k-Qtm"/>
@@ -59,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="-642.39999999999998" y="137.18140929535232"/>
         </scene>
-        <!--View Controller-->
+        <!--Card View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Oliginal_game_temp_caseinsensitive_rename" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CardViewController" customModule="Oliginal_game_temp_caseinsensitive_rename" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -212,10 +212,10 @@
             </objects>
             <point key="canvasLocation" x="2030" y="142"/>
         </scene>
-        <!--View Controller2-->
+        <!--Attack View Controller-->
         <scene sceneID="zGv-kL-d74">
             <objects>
-                <viewController id="vbC-FA-2m5" customClass="ViewController2" customModule="Oliginal_game_temp_caseinsensitive_rename" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vbC-FA-2m5" customClass="AttackViewController" customModule="Oliginal_game_temp_caseinsensitive_rename" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="amb-tu-BH7"/>
                         <viewControllerLayoutGuide type="bottom" id="dpD-Wy-C2R"/>
@@ -268,6 +268,6 @@
         <image name="OliginalGame2.jpg" width="1536" height="2048"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ECd-DF-YIK"/>
+        <segue reference="M4K-0y-zSL"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B113DF951F08C3C5007B8349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B113DF941F08C3C5007B8349 /* ViewController.swift */; };
-		B1B85B0E1EF65D5400D0712F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B85B0D1EF65D5400D0712F /* ViewController2.swift */; };
-		B1C828AF1F65018D00A4CD11 /* 0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C828AE1F65018D00A4CD11 /* 0ViewController.swift */; };
+		B113DF951F08C3C5007B8349 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B113DF941F08C3C5007B8349 /* CardViewController.swift */; };
+		B1B85B0E1EF65D5400D0712F /* AttackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B85B0D1EF65D5400D0712F /* AttackViewController.swift */; };
+		B1C828AF1F65018D00A4CD11 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C828AE1F65018D00A4CD11 /* HomeViewController.swift */; };
 		B1F04D631ED1590300B9BECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F04D621ED1590300B9BECF /* AppDelegate.swift */; };
 		B1F04D681ED1590300B9BECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F04D661ED1590300B9BECF /* Main.storyboard */; };
 		B1F04D6A1ED1590300B9BECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F04D691ED1590300B9BECF /* Assets.xcassets */; };
@@ -38,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B113DF941F08C3C5007B8349 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B1B85B0D1EF65D5400D0712F /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		B1C828AE1F65018D00A4CD11 /* 0ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = 0ViewController.swift; path = ../0ViewController.swift; sourceTree = "<group>"; };
+		B113DF941F08C3C5007B8349 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		B1B85B0D1EF65D5400D0712F /* AttackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttackViewController.swift; sourceTree = "<group>"; };
+		B1C828AE1F65018D00A4CD11 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
 		B1F04D5F1ED1590300B9BECF /* Oliginal game.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oliginal game.temp_caseinsensitive_rename.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F04D621ED1590300B9BECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1F04D671ED1590300B9BECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		B1F04D561ED1590300B9BECF = {
 			isa = PBXGroup;
 			children = (
-				B1F04D611ED1590300B9BECF /* oliginal game */,
+				B1F04D611ED1590300B9BECF /* original game */,
 				B1F04D761ED1590300B9BECF /* oliginal gameTests */,
 				B1F04D811ED1590300B9BECF /* oliginal gameUITests */,
 				B1F04D601ED1590300B9BECF /* Products */,
@@ -102,21 +102,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B1F04D611ED1590300B9BECF /* oliginal game */ = {
+		B1F04D611ED1590300B9BECF /* original game */ = {
 			isa = PBXGroup;
 			children = (
 				B1F04D621ED1590300B9BECF /* AppDelegate.swift */,
 				B1F04D661ED1590300B9BECF /* Main.storyboard */,
-				B1C828AE1F65018D00A4CD11 /* 0ViewController.swift */,
-				B113DF941F08C3C5007B8349 /* ViewController.swift */,
-				B1B85B0D1EF65D5400D0712F /* ViewController2.swift */,
+				B1C828AE1F65018D00A4CD11 /* HomeViewController.swift */,
+				B113DF941F08C3C5007B8349 /* CardViewController.swift */,
+				B1B85B0D1EF65D5400D0712F /* AttackViewController.swift */,
 				B1F04D691ED1590300B9BECF /* Assets.xcassets */,
 				B1F04D6B1ED1590300B9BECF /* LaunchScreen.storyboard */,
 				B1F04D6E1ED1590300B9BECF /* Info.plist */,
 				B1F04D961EE3CE0C00B9BECF /* OliginalGame1.jpg */,
 				B1F04D921EE3CCA100B9BECF /* OliginalGame2.jpg */,
 			);
-			path = "oliginal game";
+			path = "original game";
 			sourceTree = "<group>";
 		};
 		B1F04D761ED1590300B9BECF /* oliginal gameTests */ = {
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B1F04D5A1ED1590300B9BECF /* Build configuration list for PBXProject "Oliginal game" */;
+			buildConfigurationList = B1F04D5A1ED1590300B9BECF /* Build configuration list for PBXProject "Original game" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -273,10 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1C828AF1F65018D00A4CD11 /* 0ViewController.swift in Sources */,
-				B113DF951F08C3C5007B8349 /* ViewController.swift in Sources */,
+				B1C828AF1F65018D00A4CD11 /* HomeViewController.swift in Sources */,
+				B113DF951F08C3C5007B8349 /* CardViewController.swift in Sources */,
 				B1F04D631ED1590300B9BECF /* AppDelegate.swift in Sources */,
-				B1B85B0E1EF65D5400D0712F /* ViewController2.swift in Sources */,
+				B1B85B0E1EF65D5400D0712F /* AttackViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "oliginal game/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/original game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.oliginal-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,7 +438,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "oliginal game/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/original game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.oliginal-game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,7 +503,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1F04D5A1ED1590300B9BECF /* Build configuration list for PBXProject "Oliginal game" */ = {
+		B1F04D5A1ED1590300B9BECF /* Build configuration list for PBXProject "Original game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1F04D851ED1590300B9BECF /* Debug */,

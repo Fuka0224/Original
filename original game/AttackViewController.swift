@@ -1,5 +1,5 @@
 //
-//  ViewController2.swift
+//  AttackViewController.swift
 //  Oliginal game
 //
 //  Created by kaoru akiba on 2017/06/18.
@@ -9,7 +9,7 @@
 import UIKit
 
 
-class ViewController2: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+class AttackViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     @IBOutlet var picker: UIPickerView!
     
     var number10 : Int! = 0
@@ -63,9 +63,9 @@ class ViewController2: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         
     }
 
-    override func prepare(for segue:UIStoryboardSegue, sender: Any?) {
-        
-        let ViewController: ViewController = segue.destination as! ViewController
-        ViewController.number10 = self.number10
-    }
+//    override func prepare(for segue:UIStoryboardSegue, sender: Any?) {
+//        
+//        let ViewController: CardViewController = segue.destination as! ViewController
+//        ViewController.number10 = self.number10
+//    }
 }

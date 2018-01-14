@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CardViewController.swift
 //  oliginal game
 //
 //  Created by kaoru akiba on 2017/05/21.
@@ -8,15 +8,8 @@
 
 import UIKit
 
-// reduceを用いて取り除いた場合
-extension Array where Element: Equatable {
-    var unique: [Element] {
-        return reduce([]) { $0.0.contains($0.1) ? $0.0 : $0.0 + [$0.1] }
-        
-    }
-}
 
-class ViewController: UIViewController {
+class CardViewController: UIViewController {
     @IBOutlet var label1: UILabel!//相手左から１番目
     @IBOutlet var label2: UILabel!//相手左から２番目
     @IBOutlet var label3: UILabel!//相手左から３番目
@@ -33,40 +26,24 @@ class ViewController: UIViewController {
     var number4: Int!
     
     var number10: Int = 16
-    var a: Int = 0
-    var suuji = [Int]()
     let saveData: UserDefaults = UserDefaults.standard
-    var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+    var numbers = UserDefaults.standard.array(forKey:"suuji") as? [Int] ?? [Int]()
+    var attackNumber = UserDefaults.standard.array(forKey: "attack")
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        if saveData.object(forKey: "suuji") != nil{
-            suuji = saveData.object(forKey: "suuji") as! [Int]
-        }else{
-            while suuji.count < 9{
-                a = Int(arc4random_uniform(UInt32(numbers.count)))
-                suuji.append(numbers[a])
-                suuji = suuji.unique
-                print(suuji)
-            }
-            saveData.set(suuji, forKey: "suuji")
-        }
+        label5.text = String(numbers[0])
+        label6.text = String(numbers[1])
+        label7.text = String(numbers[2])
+        label8.text = String(numbers[3])
         
-        
-        label5.text = String(suuji[0])
-        label6.text = String(suuji[1])
-        label7.text = String(suuji[2])
-        label8.text = String(suuji[3])
-        
-        number1 = suuji[4]
-        number2 = suuji[5]
-        number3 = suuji[6]
-        number4 = suuji[7]
-        
-        print(number10)
-        
+        number1 = numbers[4]
+        number2 = numbers[5]
+        number3 = numbers[6]
+        number4 = numbers[7]
         
     }
     
